@@ -1,0 +1,137 @@
+*,html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+.container {
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 220px;
+    height: 30px;
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+}
+
+.links {
+    text-decoration: none;
+    font-weight: 650;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.links:hover {
+    color: rgb(19, 150, 150);
+}
+
+main {
+    width: 100vw;
+    background-color:  rgb(24, 206, 206);
+}
+
+.wrapper1 {
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    background-color:  transparent;
+    border: 3px solid black;
+    color: black;
+    font-weight: bold;
+}
+
+.btn1:hover {
+    background-color: black;
+    color: white;
+    transition: all 0.5s;
+}
+
+.btn2 {
+    border: 3px solid white;
+    color: white;
+}
+
+.btn2:hover {
+    background-color: white;
+    color: black;
+    transition: all 0.5s;
+}
+
+.link-wrapper {
+    display: flex;
+}
+
+.link2 {
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+/* SECTION1 */
+
+.section1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-hero {
+    display: flex;
+    align-items: center;
+}
+
+.heading1 {
+    font-size: 40px;
+    color: white;
+}
+
+.spn1 {
+    font-weight: lighter;
+    margin-bottom: 10px;
+    text-underline-offset: 5px;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+}
+
+.spn1:hover {
+    text-decoration: none;
+    
+}
+
+.img-wrapper {
+    width: 600px;
+    height: 400px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
