@@ -442,3 +442,34 @@ main {
     font-size: 20px;
     color: #333333;
 }
+
+/* SECTION5 */
+
+.section5 {
+    display: flex;
+}
+
+.heading {
+    font-size:35px;
+}
+
+.text-hero {
+    width: 58%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-top: 100px;
+    height: 400px;
+}
+
+.img-hero {
+    width: 40%;
+    display: flex;
+    align-items: center;
+}
+
+.text-hero button {
+    font-size: 20px;
+    width: 200px;
+    align-self: unset;
+}
