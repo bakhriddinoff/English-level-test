@@ -492,10 +492,17 @@ main {
 .logos-wrapper {
     display: flex;
     gap: 10px;
+    width: 200px;
 }
 
 .img-logo {
     border-radius: 5px;
     width: 40px;
     height: 40px;
+}
+
+.img-logo:hover {
+    opacity: 0.5;
+    width: 35px;
+    height: 35px;
 }
