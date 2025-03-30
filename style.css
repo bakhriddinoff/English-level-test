@@ -27,7 +27,7 @@ header {
 
 .logo {
     width: 220px;
-    height: 30px;
+    height: 80px;
 }
 
 ul {
@@ -252,11 +252,19 @@ main {
 /* SECTION2 */
 
 .section2 {
+    color: #333333;
+    display: flex;
+    justify-content: center;
+
+}
+
+.container2 {
     display: flex;
     flex-direction: column;
     padding-top: 600px;
-    color: #333333;
     height: auto;
+    max-width: 1300px;
+
 }
 
 .heading2 {
@@ -447,6 +455,13 @@ main {
 
 .section5 {
     display: flex;
+    justify-content: center;
+}
+
+.container1 {
+    width: 100%;
+    max-width: 1300px;
+    display: flex;
 }
 
 .heading {
@@ -505,4 +520,88 @@ main {
     opacity: 0.5;
     width: 35px;
     height: 35px;
+}
+
+/* FOOTER */
+footer {
+    background-color: rgb(0, 9, 46);
+}
+
+.footer-wrapper {
+    padding-top: 100px;
+    width: 100%;
+    max-width: 1300px;
+    display: flex;
+    justify-self: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.footer-links {
+    display: flex;
+    gap: 150px;
+}
+
+.first-link {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-decoration: unset;
+}
+
+.capital {
+    color: white;
+}
+
+.links3 a {
+    text-decoration: unset;
+    gap:10px;
+    color: rgb(134, 148, 181);
+    line-height: unset;
+}
+
+.links3 a:hover {
+    text-decoration: underline;
+}
+
+
+footer ul {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+input {
+    width: 300px;
+    height: 38px;
+    border-radius: 5px;
+    border: 2px solid green;
+}
+
+.btn5 {
+    background-color: rgb(211, 112, 61);
+}
+
+.textF {
+    color: white;
+}
+
+.right-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.right-footer .logos-wrapper img {
+    width: 30px;
+    height: 30px;
+}
+
+.footer-bottom {
+    width: 100%;
+    padding-top: 50px;
+    justify-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
