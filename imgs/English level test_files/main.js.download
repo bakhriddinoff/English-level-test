@@ -40,10 +40,10 @@ let footer = document.querySelector('footer')
 let h2 = document.querySelectorAll('h2')
 let herojon = document.getElementById('herojon')
 let p = document.querySelectorAll('p')
+let link2 = document.querySelectorAll('.link2')
 let h3 = document.querySelectorAll('h3')
 let linkwrapper = document.querySelector('.link-wrapper')
 let textjon = document.querySelectorAll('.textF')
-let h4 = document.querySelectorAll('h4')
 
 btnblack.addEventListener('click', function() { 
     main.style.backgroundColor = 'black';
@@ -54,10 +54,12 @@ btnblack.addEventListener('click', function() {
     h2.forEach(h2 => {
         h2.style.color = 'white';
     })
+    link2.forEach(linke => {
+        linke.style.color = 'white'; 
+    })
     h3.forEach(h3 => {
         h3.style.color = 'white';
     })
-    linkwrapper.style.color = 'white';
     btnblack.style.border = '3px solid white';
     btnblack.style.color = 'white';
     hero1.style.backgroundColor = 'rgb(0, 9, 46)';
@@ -67,7 +69,7 @@ btnblack.addEventListener('click', function() {
         el.style.color = 'white';
     });
     links.forEach(link => {
-        link.style.color = 'rgb(24, 206, 206)';
+        link.style.color = 'black';
     });
     section1.style.backgroundColor = 'rgb(0, 9, 46)';
     section2.style.backgroundColor = ' rgb(0, 9, 46)';
@@ -75,10 +77,6 @@ btnblack.addEventListener('click', function() {
     section4.style.backgroundColor = ' rgb(0, 9, 46)';
     section5.style.backgroundColor = ' rgb(0, 9, 46)';
     section6.style.backgroundColor = ' rgb(0, 9, 46)';
-    h4.forEach(h4 => {
-        h4.style.color = 'white';
-    })
-
     footer.style.backgroundColor = 'black';
 })
 
@@ -117,7 +115,7 @@ btnwhite.addEventListener('click', function() {
     section1.style.backgroundColor = 'white';
     section2.style.backgroundColor = 'white';
     section3.style.backgroundColor = 'white';
-    section4.style.backgroundColor = '#F2F1F0';
+    section4.style.backgroundColor = 'white';
     section5.style.backgroundColor = 'white';
     section6.style.backgroundColor = 'white';
     footer.style.backgroundColor = 'rgb(0, 9, 46)';
