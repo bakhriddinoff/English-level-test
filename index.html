@@ -8,15 +8,41 @@
 </head>
 <body>
     <header class="container">
-        <div class="logo"><img class="logo" src="./imgs/learning.jpg" alt="logo"></div>
-        <div class="navbar">
-            <ul>
-                <li><a class="links" href="#">Grades</a></li>
-                <li><a class="links" href="#">About us</a></li>
-                <li><a class="links" href="#">Carrers</a></li>
-                <li><a class="links" href="#">Contact us</a></li>
-            </ul>
+        <div class="header-wrapper">
+            <div class="logo"><img class="logo" src="./imgs/learning.jpg" alt="logo"></div>
+            <div class="navbar">
+                <ul>
+                    <li><a class="links" href="#">Grades</a></li>
+                    <li><a class="links" href="#">About us</a></li>
+                    <li><a class="links" href="#">Carrers</a></li>
+                    <li><a class="links" href="#">Contact us</a></li>
+                </ul>
+            </div>    
         </div>
+
+        <!-- HAMBURGER -->
+        <div class="hamburger">   
+            <div class="off-screen-menu">
+                <ul class="ham-menu-ul">
+                    <li><a href="./index.html">Grades</a></li>
+                    <li><a href="./portfolio.html">About us</a></li>
+                    <li><a href="./services.html">Carrers</a></li>
+                    <li><a href="./contacts.html">Contact us</a></li>
+
+                </ul>
+                <div class="logo"><img class="logo" src="./imgs/learning.jpg" alt="logo"></div>
+            </div>
+        
+            <nav class="nav-bar">
+                <div class="ham-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        
+        </div> 
+        
     </header>
     <main>
         <div class="container wrapper1">
@@ -33,7 +59,7 @@
                 <ul>
                     <li><a class="link2" id="a" href="#">Home</a></li>
                     <li><a class="link2" id="a" href="#">Why choose us</a></li>
-                    <li><a class="link2" id="a" href="#">Exams and tests</a></li>
+                    <li><a class="link2" id="a" href="./exam.html">Exams and tests</a></li>
                     <li><a class="link2" id="a" href="#">Learning English</a></li>
                     <li><a class="link2" id="a" href="#">Teaching English</a></li>
                     <li><a class="link2" id="a" href="#">Blog</a></li>
@@ -47,7 +73,7 @@
 
     <!-- SECTION1 -->
     <div class="section1">
-        <div id="hero1">
+        <div id="hero1" class="heroes">
             <div class="left-hero">
                 <h2 class="heading1">Trusted by teachers, <br> everywhere<br> <span class="spn1">Watch the video</span></h2>
             </div>
@@ -56,7 +82,7 @@
             </div>    
         </div>
 
-        <div id="hero2">
+        <div id="hero2" class="heroes">
             <div class="leftjon left">
                 <h2 class="heading1">Discover a world shaped by<br>research and insights <span class="spn1">Watch the video</span></h2>
             </div>
@@ -65,7 +91,7 @@
             </div>    
         </div>
 
-        <div id="hero3">
+        <div id="hero3"  class="heroes">
             <div class="left-hero left">
                 <h2 class="heading1">Getting the most from <br> every moment of learning<br> <span class="spn1">Watch the video</span></h2>
             </div>
