@@ -107,7 +107,9 @@ btnwhite.addEventListener('click', function() {
     })
     btnblack.style.border = '3px solid black';
     btnblack.style.color = 'black';
-    
+    h4.forEach(h4 => {
+        h4.style.color = 'black';
+    })
     herojon.style.backgroundColor = 'rgb(0, 9, 46)';
     btnblack.style.border = '3px solid white';
     btnblack.style.color = 'white';
