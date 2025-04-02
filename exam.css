@@ -80,8 +80,11 @@ body {
 }
 
 #score {
-    margin-top: 20px;
     font-weight: bold;
+    width: 100%;
+    background-color: rgb(24, 206, 206);
+    color: white;
+    padding-bottom: 50px;
 }
 
 
@@ -122,8 +125,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 35px;
-    padding-bottom: 35px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 
@@ -181,6 +184,118 @@ body {
     align-items: center;
 }
 
+
+
+
+/* FOOTER */
+footer {
+    background-color: rgb(0, 9, 46);
+    
+}
+
+.footer-wrapper {
+    width: 100%;
+    max-width: 1300px;
+    display: flex;
+    justify-self: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.footer-links {
+    display: flex;
+    gap: 150px;
+}
+
+.first-link {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-decoration: unset;
+}
+
+.capital {
+    color: white;
+}
+
+.links3 a {
+    text-decoration: unset;
+    gap:10px;
+    color: rgb(134, 148, 181);
+    line-height: unset;
+}
+
+.links3 a:hover {
+    text-decoration: underline;
+}
+
+
+footer ul {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+input {
+    width: 300px;
+    height: 38px;
+    border-radius: 5px;
+    border: 2px solid green;
+}
+
+
+.textF {
+    color: white;
+}
+
+.right-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.right-footer .logos-wrapper img {
+    width: 30px;
+    height: 30px;
+}
+
+.footer-bottom {
+    width: 100%;
+    padding-top: 50px;
+    justify-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.heading1 {
+    color: white;
+}
+.logjons {
+    max-width: 250px;
+    height: 60px;
+}
+
+.btn3 {
+    align-self: center;
+    text-align: center;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    border: transparent;
+    background-color: #333333;
+    font-size: 20px;
+    color: white;
+
+}
+
+.btn5 {
+    background-color: rgb(211, 112, 61);
+}
+
+
+
+
 @media (max-width:568px) {
     .hamburger {
         display: block;
@@ -192,4 +307,109 @@ body {
     .link-wrapper ul {
         flex-wrap: wrap;
     }
+    .section1 .heroes {
+        flex-direction: column;
+        align-items: center;
+    }
+    .heading1 {
+        font-size: 20px;
+        padding-top: 30px;
+    }
+    .left {
+        width: 100%;
+    }
+    .right-hero {
+        height: 50%;
+        width: 100%;
+    }
+    .img-wrapper {
+        border-radius: 0;
+        height: 200px;
+        width: 70%;
+    }
+    .btn1 {
+        margin-bottom: 10px;
+    }
+    .wrapper1 {
+        height: 200px;
+    }
+    .button-wrapper {
+        left: 160px;
+    }
+
+    .section3 {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .cards-wrapper, .cards {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .second, .second .left-card {
+        width: 100%;
+    }
+    .right-card, .left-card {
+        width:100% ;
+        display: flex;
+        justify-content: center;
+    }
+    .left-card button {
+        align-self: center;
+        }
+    .right-card img {
+        width: 100%;;
+        height: 300px;
+        left: 0;
+    }
+    .text1 {
+        width: 100%;
+    }
+    .container1 {
+        flex-direction: column;
+    }
+
+    .img-hero,.img-hero img {
+        width: 100%;
+    }
+
+    .imgs-wrappers {
+        flex-direction: column;
+    }
+    .footer-wrapper {
+        flex-direction: column;
+    }
+    .footer-links {
+        gap: 30px;
+        padding-bottom: 40px;
+    }
+    input {
+        margin-bottom: 30px;
+    }
+    .footer-bottom {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .section4 {
+        height: 130vh;
+    }
+    .section4 .text1 {
+        padding-bottom: 300px;
+    }
+    .img-wrapper {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .imgs {
+        width: 100%;
+    }
+    .section5 .text-hero {
+        width: 400px;
+    }
+    .container1 {
+        display: flex;
+        justify-content: center;
+    }
+
 }
